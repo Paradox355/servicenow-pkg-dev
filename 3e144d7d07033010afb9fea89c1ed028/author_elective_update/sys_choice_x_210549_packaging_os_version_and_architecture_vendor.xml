@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="vendor" table="x_210549_packaging_os_version_and_architecture" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <name>x_210549_packaging_os_version_and_architecture</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 18:41:43</sys_created_on>
+            <sys_id>480c89f107433010afb9fea89c1ed08d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vendor</sys_name>
+            <sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope>
+            <sys_update_name>sys_choice_x_210549_packaging_os_version_and_architecture_vendor</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 18:41:43</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vendor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft</label>
+            <language>en</language>
+            <name>x_210549_packaging_os_version_and_architecture</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 18:41:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04fb013507433010afb9fea89c1ed0a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 18:41:42</sys_updated_on>
+            <value>ms</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vendor</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apple</label>
+            <language>en</language>
+            <name>x_210549_packaging_os_version_and_architecture</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 18:42:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d0c85f107433010afb9fea89c1ed065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 18:42:00</sys_updated_on>
+            <value>apple</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

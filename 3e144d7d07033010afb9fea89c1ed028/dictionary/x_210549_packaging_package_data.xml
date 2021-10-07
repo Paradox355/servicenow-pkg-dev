@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Package Data" max_length="40" name="x_210549_packaging_package_data" type="collection">
+        <element default="Standard-Minor" label="Classification" mandatory="true" max_length="100" name="classification" type="string"/>
+        <element label="ENT TEST Opt Out" max_length="40" name="ent_test_opt_out" type="boolean"/>
+        <element label="Include in Windows OSD" max_length="40" name="include_osd" type="boolean"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Primary Packager" max_length="32" name="primary_packager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Secondary Packager" max_length="32" name="secondary_packager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Software Name" mandatory="true" max_length="500" name="software_name" type="string"/>
+        <element label="Software Vendor" mandatory="true" max_length="500" name="software_vendor" type="string"/>
+        <element label="Used by" max_length="1000" name="used_by" type="string"/>
+        <index name="index">
+            <element name="primary_packager"/>
+        </index>
+        <index name="index2">
+            <element name="secondary_packager"/>
+        </index>
+    </element>
+</database>

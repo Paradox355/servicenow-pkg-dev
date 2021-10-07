@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="license_type" table="x_210549_packaging_software_request_data" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>license_type</element>
+            <name>x_210549_packaging_software_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:33:19</sys_created_on>
+            <sys_id>f943797107c33010afb9fea89c1ed04d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>license_type</sys_name>
+            <sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope>
+            <sys_update_name>sys_choice_x_210549_packaging_software_request_data_license_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:33:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>license_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Licensed</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be3375b107c33010afb9fea89c1ed0fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:33:19</sys_updated_on>
+            <value>lic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>license_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lockheed Martin Developed</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:33:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c853b5b107c33010afb9fea89c1ed08c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:33:57</sys_updated_on>
+            <value>lmd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>license_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No License Required</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c27339b107c33010afb9fea89c1ed0f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:34:26</sys_updated_on>
+            <value>nlr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>license_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FOSS</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:34:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>249371b107c33010afb9fea89c1ed02f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:34:47</sys_updated_on>
+            <value>foss</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

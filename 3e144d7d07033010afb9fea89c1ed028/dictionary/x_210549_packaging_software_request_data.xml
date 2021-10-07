@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Software Request Data" max_length="40" name="x_210549_packaging_software_request_data" type="collection">
+        <element label="To be used on Air Gap" max_length="40" name="airgap" type="boolean"/>
+        <element label="Application Name" max_length="200" name="app_name" type="string"/>
+        <element label="Application Vendor" max_length="200" name="app_vendor" type="string"/>
+        <element label="Application Version" max_length="200" name="app_version" type="string"/>
+        <element label="Article ID" max_length="15" name="article_id" type="string"/>
+        <element label="Change Request" max_length="32" name="change_request" read_only="true" reference="change_request" type="reference"/>
+        <element choice="3" default="app" label="Deliverable Type" max_length="40" name="deliverable_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="App Model" sequence="10" value="app"/>
+                <element inactive_on_update="false" label="Package" sequence="20" value="pkg"/>
+                <element inactive_on_update="false" label="Configuration Item" sequence="30" value="ci"/>
+                <element inactive_on_update="false" label="Configuration Baseline" sequence="40" value="cb"/>
+                <element inactive_on_update="false" label="Task Sequence" sequence="50" value="ts"/>
+                <element inactive_on_update="false" label="SCUP" sequence="60" value="scup"/>
+                <element inactive_on_update="false" label="Run Script" sequence="70" value="rs"/>
+                <element inactive_on_update="false" label="Software Updates" sequence="80" value="su"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Distribution Scope" max_length="1000" name="distribution_scope" type="string"/>
+        <element label="Due date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="ECCN" max_length="10" name="eccn" type="string"/>
+        <element label="Engineering Document" max_length="1024" name="eng_doc" type="url"/>
+        <element label="ENT TEST Opt Out" max_length="40" name="ent_test_opt_out" type="boolean"/>
+        <element label="Fail Comments" max_length="400" name="fail_comments" type="string"/>
+        <element label="To be used on FTN" max_length="40" name="ftn" type="boolean"/>
+        <element label="General Information" max_length="1000" name="general_information" type="string"/>
+        <element label="Impact" max_length="40" name="impact" type="integer"/>
+        <element label="Include in Windows OSD" max_length="40" name="include_osd" type="boolean"/>
+        <element label="Installation Instructions" max_length="8000" name="installation_instructions" type="html"/>
+        <element label="To be used on ISN" max_length="40" name="isn" type="boolean"/>
+        <element choice="1" label="License Type" max_length="40" name="license_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Licensed" sequence="100" value="lic"/>
+                <element inactive_on_update="false" label="Lockheed Martin Developed" sequence="200" value="lmd"/>
+                <element inactive_on_update="false" label="No License Required" sequence="300" value="nlr"/>
+                <element inactive_on_update="false" label="FOSS" sequence="1000" value="foss"/>
+            </choice>
+        </element>
+        <element label="Licensing Information" max_length="1000" name="licensing_info" type="string"/>
+        <element label="To be used on LMI" max_length="40" name="lmi" type="boolean"/>
+        <element label="Minimum Hardware Requirements" max_length="1000" name="min_hdw_req" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Opt in" max_length="4000" name="opt_in" type="simple_name_values"/>
+        <element choice="1" default="ms" label="OS Vendor" max_length="40" name="os_vendor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Microsoft" sequence="10" value="ms"/>
+                <element inactive_on_update="false" label="Apple" sequence="20" value="apple"/>
+            </choice>
+        </element>
+        <element label="OS Version and Architecture" max_length="4000" name="os_version_and_architecture" reference="x_210549_packaging_os_version_and_architecture" type="glide_list"/>
+        <element label="To be used on Other Networks" max_length="40" name="other" type="boolean"/>
+        <element label="Other Networks" max_length="500" name="other_networks" type="string"/>
+        <element label="Packager" max_length="32" name="packager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="To be used on PAX" max_length="40" name="pax" type="boolean"/>
+        <element label="Previous Package ID" max_length="8" name="previous_package_id" type="string"/>
+        <element choice="3" default="3" label="Priority" max_length="40" name="priority" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Planning" sequence="10" value="5"/>
+                <element inactive_on_update="false" label="Low" sequence="20" value="4"/>
+                <element inactive_on_update="false" label="Moderate" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="High" sequence="40" value="2"/>
+                <element inactive_on_update="false" label="Critical" sequence="50" value="1"/>
+            </choice>
+        </element>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Request Item" max_length="32" name="request_item" reference="sc_req_item" type="reference"/>
+        <element label="Saved Search" max_length="100" name="saved_search" type="string"/>
+        <element label="SCCM Package ID" max_length="8" name="sccm_package_id" type="string"/>
+        <element label="Script GUID" max_length="36" name="script_guid" type="string"/>
+        <element label="Security Related" max_length="40" name="security_related" type="boolean"/>
+        <element display="true" label="Short Description" max_length="250" name="short_description" type="string"/>
+        <element label="Subject Matter Expert" max_length="32" name="sme" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="SME Approval Bypass" max_length="40" name="sme_approval_bypass" type="boolean"/>
+        <element label="SME Computer Name" max_length="100" name="sme_computer_name" type="string"/>
+        <element label="Software Dependencies" max_length="800" name="software_dependencies" type="string"/>
+        <element label="Source Files Location (UNC)" max_length="500" name="source_files_location" type="string"/>
+        <element label="Testing Instructions" max_length="8000" name="test_instructions" type="html"/>
+        <element label="Update to Existing Package" max_length="40" name="update_existing" type="boolean"/>
+        <element default="3" label="Urgency" max_length="40" name="urgency" type="integer"/>
+        <element label="Validation Details" max_length="1000" name="validation_details" type="string"/>
+        <index name="index">
+            <element name="request_item"/>
+        </index>
+        <index name="index2">
+            <element name="sme"/>
+        </index>
+        <index name="index3">
+            <element name="requested_for"/>
+        </index>
+        <index name="index4">
+            <element name="packager"/>
+        </index>
+        <index name="index5">
+            <element name="change_request"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ver_and_arch" label="Name" language="en" table="x_210549_packaging_os_version_and_architecture">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ver_and_arch</element>
+            <help/>
+            <hint/>
+            <label>Name</label>
+            <language>en</language>
+            <name>x_210549_packaging_os_version_and_architecture</name>
+            <plural>Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 18:40:01</sys_created_on>
+            <sys_id>139b49f107433010afb9fea89c1ed0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Name</sys_name>
+            <sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope>
+            <sys_update_name>sys_documentation_x_210549_packaging_os_version_and_architecture_ver_and_arch_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 18:40:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

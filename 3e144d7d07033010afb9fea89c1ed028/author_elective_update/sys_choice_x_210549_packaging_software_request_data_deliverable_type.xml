@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="deliverable_type" table="x_210549_packaging_software_request_data" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>deliverable_type</element>
+            <name>x_210549_packaging_software_request_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:10:54</sys_created_on>
+            <sys_id>252e697d07833010afb9fea89c1ed0ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>deliverable_type</sys_name>
+            <sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope>
+            <sys_update_name>sys_choice_x_210549_packaging_software_request_data_deliverable_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:10:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>App Model</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:10:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>861eed7d07833010afb9fea89c1ed050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:10:54</sys_updated_on>
+            <value>app</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Package</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:11:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a44ea1bd07833010afb9fea89c1ed04e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:11:38</sys_updated_on>
+            <value>pkg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configuration Item</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:12:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b46e257d07833010afb9fea89c1ed05c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:12:09</sys_updated_on>
+            <value>ci</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configuration Baseline</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:12:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b67e257d07833010afb9fea89c1ed05f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:12:37</sys_updated_on>
+            <value>cb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Task Sequence</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:12:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a89e25bd07833010afb9fea89c1ed07a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:12:56</sys_updated_on>
+            <value>ts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SCUP</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1ae297d07833010afb9fea89c1ed07b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:13:14</sys_updated_on>
+            <value>scup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Run Script</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:13:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdbea5bd07833010afb9fea89c1ed0eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:13:34</sys_updated_on>
+            <value>rs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deliverable_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software Updates</label>
+            <language>en</language>
+            <name>x_210549_packaging_software_request_data</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 21:14:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79de25bd07833010afb9fea89c1ed08c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-07 21:14:08</sys_updated_on>
+            <value>su</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
