@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Software Request Data" max_length="40" name="x_210549_packaging_software_request_data" type="collection">
+    <element label="Software Request Data" max_length="40" name="x_210549_packaging_software_request_data" sizeclass="2871" type="collection">
         <element label="To be used on Air Gap" max_length="40" name="airgap" type="boolean"/>
         <element label="Application Name" max_length="200" name="app_name" type="string"/>
         <element label="Application Vendor" max_length="200" name="app_vendor" type="string"/>
@@ -53,7 +53,7 @@
         <element label="OS Version and Architecture" max_length="4000" name="os_version_and_architecture" reference="x_210549_packaging_os_version_and_architecture" type="glide_list"/>
         <element label="To be used on Other Networks" max_length="40" name="other" type="boolean"/>
         <element label="Other Networks" max_length="500" name="other_networks" type="string"/>
-        <element label="Packager" max_length="32" name="packager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Packager" max_length="32" name="packager" reference="sys_user" type="reference"/>
         <element label="To be used on PAX" max_length="40" name="pax" type="boolean"/>
         <element label="Previous Package ID" max_length="8" name="previous_package_id" type="string"/>
         <element choice="3" default="3" label="Priority" max_length="40" name="priority" type="integer">
@@ -65,14 +65,14 @@
                 <element inactive_on_update="false" label="Critical" sequence="50" value="1"/>
             </choice>
         </element>
-        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element label="Request Item" max_length="32" name="request_item" reference="sc_req_item" type="reference"/>
         <element label="Saved Search" max_length="100" name="saved_search" type="string"/>
         <element label="SCCM Package ID" max_length="8" name="sccm_package_id" type="string"/>
         <element label="Script GUID" max_length="36" name="script_guid" type="string"/>
         <element label="Security Related" max_length="40" name="security_related" type="boolean"/>
         <element display="true" label="Short Description" max_length="250" name="short_description" type="string"/>
-        <element label="Subject Matter Expert" max_length="32" name="sme" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Subject Matter Expert" max_length="32" name="sme" reference="sys_user" type="reference"/>
         <element label="SME Approval Bypass" max_length="40" name="sme_approval_bypass" type="boolean"/>
         <element label="SME Computer Name" max_length="100" name="sme_computer_name" type="string"/>
         <element label="Software Dependencies" max_length="800" name="software_dependencies" type="string"/>

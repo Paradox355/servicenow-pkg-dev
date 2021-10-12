@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="software_request_data_staging" max_length="40" name="x_210549_packaging_software_request_data_staging" sizeclass="2871" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Application Name" label="Application Name" max_length="111" name="u_application_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Application Vendor" label="Application Vendor" max_length="52" name="u_application_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Application Version" label="Application Version" max_length="73" name="u_application_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Article ID" label="Article ID" max_length="40" name="u_article_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Change Request" label="Change Request" max_length="40" name="u_change_request" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Deliverable Type" label="Deliverable Type" max_length="40" name="u_deliverable_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="3682" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Distribution Scope" label="Distribution Scope" max_length="750" name="u_distribution_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Due date" label="Due date" max_length="40" name="u_due_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ECCN" label="ECCN" max_length="40" name="u_eccn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Engineering Document" label="Engineering Document" max_length="4505" name="u_engineering_document" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ENT TEST Opt Out" label="ENT TEST Opt Out" max_length="40" name="u_ent_test_opt_out" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fail Comments" label="Fail Comments" max_length="845" name="u_fail_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=General Information" label="General Information" max_length="17022" name="u_general_information" type="string"/>
+        <element attributes="import_attribute_name=Impact" label="Impact" max_length="40" name="u_impact" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Include in Windows OSD" label="Include in Windows OSD" max_length="40" name="u_include_in_windows_osd" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Installation Instructions" label="Installation Instructions" max_length="32003" name="u_installation_instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=License Type" label="License Type" max_length="40" name="u_license_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Licensing Information" label="Licensing Information" max_length="698" name="u_licensing_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Minimum Hardware Requirements" label="Minimum Hardware Requirements" max_length="460" name="u_minimum_hard_e_requirements" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Opt In" label="Opt In" max_length="217" name="u_opt_in" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OS Version and Architecture" label="OS Version and Architecture" max_length="102" name="u_os_version_and_architecture" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Other Networks" label="Other Networks" max_length="140" name="u_other_networks" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Packager" label="Packager" max_length="40" name="u_packager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Previous Package ID" label="Previous Package ID" max_length="40" name="u_previous_package_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Requested for" label="Requested for" max_length="60" name="u_requested_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Request Item" label="Request Item" max_length="40" name="u_request_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Saved Search" label="Saved Search" max_length="49" name="u_saved_search" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SCCM Package ID" label="SCCM Package ID" max_length="40" name="u_sccm_package_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Script GUID" label="Script GUID" max_length="40" name="u_script_guid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Security Related" label="Security Related" max_length="40" name="u_security_related" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short Description" label="Short Description" max_length="110" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SME Approval Bypass" label="SME Approval Bypass" max_length="40" name="u_sme_approval_bypass" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SME Computer Name" label="SME Computer Name" max_length="40" name="u_sme_computer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Software Dependencies" label="Software Dependencies" max_length="810" name="u_software_dependencies" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Source Files Location (UNC)" label="Source Files Location (UNC)" max_length="100" name="u_source_files_location__unc_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Subject Matter Expert" label="Subject Matter Expert" max_length="64" name="u_subject_matter_expert" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Testing Instructions" label="Testing Instructions" max_length="32003" name="u_testing_instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=To be used on Air Gap" label="To be used on Air Gap" max_length="40" name="u_to_be_used_on_air_gap" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=To be used on FTN" label="To be used on FTN" max_length="40" name="u_to_be_used_on_ftn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=To be used on ISN" label="To be used on ISN" max_length="40" name="u_to_be_used_on_isn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=To be used on LMI" label="To be used on LMI" max_length="40" name="u_to_be_used_on_lmi" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=To be used on Other Networks" label="To be used on Other Networks" max_length="40" name="u_to_be_used_on_other_networks" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=To be used on PAX" label="To be used on PAX" max_length="40" name="u_to_be_used_on_pax" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Update to Existing Package" label="Update to Existing Package" max_length="40" name="u_update_to_existing_package" type="string"/>
+        <element attributes="import_attribute_name=Urgency" label="Urgency" max_length="40" name="u_urgency" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Validation Details" label="Validation Details" max_length="4300" name="u_validation_details" type="string"/>
+    </element>
+</database>
