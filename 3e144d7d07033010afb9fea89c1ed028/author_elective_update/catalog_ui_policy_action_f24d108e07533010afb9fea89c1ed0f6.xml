@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:13189c4607533010afb9fea89c1ed05f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 20:11:58</sys_created_on>
+        <sys_id>f24d108e07533010afb9fea89c1ed0f6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>sr_win_arch</sys_name>
+        <sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f24d108e07533010afb9fea89c1ed0f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 20:26:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Architecture field">b3fc5c4e07533010afb9fea89c1ed046</ui_policy>
+        <variable>sr_win_arch</variable>
+        <variable_set display_value="Request Info Set 2">e881dc0607533010afb9fea89c1ed061</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</application>
+        <file_path/>
+        <instance_id>4404127e9b405304a4e16b8af359ffda</instance_id>
+        <instance_name>dev49345</instance_name>
+        <name>catalog_ui_policy_action_f24d108e07533010afb9fea89c1ed0f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:13189c4607533010afb9fea89c1ed05f</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-20 20:11:58</sys_created_on><sys_id>f24d108e07533010afb9fea89c1ed0f6</sys_id><sys_mod_count>3</sys_mod_count><sys_name>sr_win_arch</sys_name><sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package><sys_policy/><sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope><sys_update_name>catalog_ui_policy_action_f24d108e07533010afb9fea89c1ed0f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-20 20:26:55</sys_updated_on><table/><ui_policy display_value="Hide Architecture field">b3fc5c4e07533010afb9fea89c1ed046</ui_policy><variable>sr_win_arch</variable><variable_set display_value="Request Info Set 2">e881dc0607533010afb9fea89c1ed061</variable_set><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1617006197</payload_hash>
+        <record_name>sr_win_arch</record_name>
+        <reverted_from/>
+        <source>b49660bb07833010afb9fea89c1ed05d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 20:26:55</sys_created_on>
+        <sys_id>5cc0280207933010afb9fea89c1ed05b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c9f62aa4f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 20:26:55</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>94c028020993301003ea088df918b75b</update_guid>
+        <update_guid_history>94c028020993301003ea088df918b75b:-1617006197,a910a402d3933010ed353bd18be4c602:1780295696,3abe90ce33533010ea578292f4608504:1256634399,1d5d508eaf533010b9df522ea21e6078:1780295696</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sr_win_arch">07d0ac0207933010afb9fea89c1ed0dc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 20:27:24</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>5570a238dacd4cfea0ce57c7730651c1</sys_id>
+        <sys_metadata>f24d108e07533010afb9fea89c1ed0f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sr_win_arch</sys_name>
+        <sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope>
+        <sys_scope_delete display_value="">07fbf65a48f64dcb864804f171ddb4f9</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_f24d108e07533010afb9fea89c1ed0f6</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_f24d108e07533010afb9fea89c1ed0f6">5cc0280207933010afb9fea89c1ed05b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 20:27:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

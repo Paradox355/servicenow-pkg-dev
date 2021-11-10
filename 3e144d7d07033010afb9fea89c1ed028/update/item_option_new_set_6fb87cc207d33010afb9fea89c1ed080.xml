@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>testing_details_2</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>220</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 22:12:28</sys_created_on>
+        <sys_id>6fb87cc207d33010afb9fea89c1ed080</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Testing Details 2</sys_name>
+        <sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope>
+        <sys_update_name>item_option_new_set_6fb87cc207d33010afb9fea89c1ed080</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 22:14:11</sys_updated_on>
+        <title>Testing Details 2</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

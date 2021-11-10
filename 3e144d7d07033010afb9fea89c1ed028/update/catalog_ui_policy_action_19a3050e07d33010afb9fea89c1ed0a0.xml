@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Enterprise Software Request">d565a79f07433010afb9fea89c1ed0a6</catalog_item>
+        <catalog_variable>IO:6f2e74c607d33010afb9fea89c1ed095</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 22:59:37</sys_created_on>
+        <sys_id>19a3050e07d33010afb9fea89c1ed0a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sr_networks</sys_name>
+        <sys_package display_value="Packaging" source="x_210549_packaging">3e144d7d07033010afb9fea89c1ed028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Packaging">3e144d7d07033010afb9fea89c1ed028</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_19a3050e07d33010afb9fea89c1ed0a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 22:59:37</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Toggle New Package fields">d00e988e07533010afb9fea89c1ed081</ui_policy>
+        <variable>sr_networks</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
